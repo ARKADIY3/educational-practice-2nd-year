@@ -1,0 +1,77 @@
+html::-webkit-scrollbar{
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: #2847B7;  /*цвет ячеек */
+        padding: 10px 20px; /* Поля вокруг текста */
+
+
+    }
+    li {
+        display: inline-block;
+        position: relative; 
+        margin-right: 90px; /* Расстояние между пунктами меню */
+        font-size: 25px; /*шрифт текста*/
+
+    }
+    a {
+        display: block;
+        padding: 10px 0px;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px 80px; /* Поля вокруг текста */
+    }
+    ul ul {
+        display: none;
+        position: absolute;
+        background-color: #2847B7; /*цвет ячеек */
+        border: 1px solid #000000; /*толщена и цвет таблицы*/
+
+    }
+    li:hover > ul {
+        display: block;
+    }
+
+
+    .fod{
+        text-align: left;
+        padding: 20px;
+        font-family: Arial;  
+        background-color: #192c74;
+        color: #ffffff;  /*цвет текста */
+
+    }.fod .ppp{
+        text-align: right;
+    }
+
+
+    
+    .bbb{
+        display: flex; /* так чтоб было на одном уровне */
+            }
+
+            
+            .TEXT{
+                text-align: center;
+                font-family: Arial;
+                background-color: #ffffff; /*цвет поля*/
+                border-radius: 50px;
+                color: #2847B7;
+                display: flex;
+                margin-top: 20px; /* отступ*/
+                padding: 20px;
+                }
+            .photo{
+                width: 1200px; /*Ширена фота*/
+                height: 700px; /*Высота фота*/
+            }
+            .TEXT h1{
+                padding: 3% 50px 50px 50px ; /*Выравнивания по белому полю*/
+            }

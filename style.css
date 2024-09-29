@@ -1,0 +1,78 @@
+html::-webkit-scrollbar{ /*Для того чтоб небыло бигунка на сайте*/
+    display: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    }
+
+
+    ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: #2847B7;/*Цвет меню сайта*/
+        padding: 10px 20px; /* Поля вокруг текста */
+
+
+    }
+    li {
+        display: inline-block;/*Вид ячейки*/
+        position: relative; /*позицыя текста в ячейки*/
+        margin-right: 90px; /* Расстояние между пунктами меню */
+        font-size: 25px;
+
+    }
+    a {
+        display: block;/*Вид ячейки*/
+        padding: 10px 0px;
+        text-decoration: none;
+        color: #ffffff;
+        padding: 10px 80px; /* Поля вокруг текста */
+    }
+    ul ul {
+        display: none;/*Делает выподающее меню*/
+        position: absolute;
+        background-color: #2847B7;/*Цвет меню сайта*/
+        border: 1px solid #000000;/*Цвет рамки сайта и толщена*/
+    }
+    li:hover > ul {
+        display: block;/*Вид ячейки*/
+    }
+
+
+    .BANNER{/*Размеры баннера*/
+        margin-top: 100px;
+        margin-left: 600px;
+        border: none;
+    }
+
+    .carousels{/*Слайдер*/
+      height: 100%;/*Высота*/
+      width: 100%;/*Длина*/
+      border: none;
+
+    }
+
+    .TEXT{
+        text-align: center;/*Выравнивание по центру*/
+        font-family: Arial;/*Шрифт*/
+        background-color: #ffffff;/*Цвет текста*/
+        border-radius: 50px;/*Округление углов*/
+        color: #2847B7;/*Цвет текста*/
+
+    }
+    .fod{/*Ноги сайта*/
+        text-align: left;/*Выравнивание по левой стороне*/
+        padding: 20px;
+        font-family: Arial;/*Шрифт*/
+        background-color: #192c74;/*Цвет облости ног сайта*/
+        color: #ffffff;/*Цвет текста*/
+      
+    }.fod .ppp{
+        text-align: right;/*Выравнивание по правой стороне*/
+
+    }
+
+
+    .bbb{
+display: flex;/*Делает так чтоб 3D логотип и баннер были на одном уровне*/
+    }
